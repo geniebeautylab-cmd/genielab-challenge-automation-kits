@@ -1,0 +1,30 @@
+{
+  "blogId": "",
+  "brand": {
+    "handle": "@내인스타아이디",
+    "name": "내 샵 이름",
+    "bgColor": "#141414",
+    "pointColor": "#34C759",
+    "textColor": "#FFFFFF",
+    "subTextColor": "#B8B8B8"
+  },
+  "cta": {
+    "line1": "저장해두고 하나씩 해보세요",
+    "line2": "여기에 우리 샵 한 줄 소개",
+    "handle": "@내인스타아이디"
+  },
+  "slides": {
+    "min": 6,
+    "max": 8
+  },
+  "telegram": {
+    "enabled": true,
+    "botToken": "",
+    "chatId": ""
+  },
+  "instagram": {
+    "autoUpload": false,
+    "approvalTimeoutHours": 6
+  },
+  "blogAppDataDir": ""
+}

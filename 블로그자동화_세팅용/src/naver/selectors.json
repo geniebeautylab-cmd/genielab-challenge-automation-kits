@@ -1,0 +1,77 @@
+{
+  "_comment": "네이버 스마트에디터 ONE 선택자. 2026-07 기준 실제 에디터에서 확인한 값입니다. 네이버가 UI를 바꾸면 여기만 고치면 됩니다. 배열은 위에서부터 순서대로 시도합니다.",
+
+  "editorFrame": "#mainFrame",
+
+  "draftPopupConfirm": [
+    "button.se-popup-button-cancel",
+    ".se-popup-button-cancel",
+    "button:has-text('취소')"
+  ],
+  "helpPopupClose": [
+    ".se-help-panel-close-button",
+    "button.se-help-panel-close-button",
+    ".se-popup-close-button"
+  ],
+
+  "titleInput": [
+    ".se-section-documentTitle .se-text-paragraph",
+    ".se-documentTitle .se-text-paragraph"
+  ],
+  "bodyArea": [
+    ".se-section-text .se-text-paragraph",
+    ".se-component-content .se-text-paragraph"
+  ],
+
+  "_comment_format": "문단 서식: text-format 버튼을 눌러 드롭다운을 열고 data-value 로 고릅니다.",
+  "paragraphFormatButton": "button[data-name='text-format']",
+  "paragraphFormatOption": "button[data-value='%s']",
+  "formatBody": "text",
+  "formatHeading": "sectionTitle",
+
+  "_comment_inline": "인라인 서식 토글. 활성화되면 se-is-selected 클래스가 붙습니다.",
+  "inlineToggles": ["bold", "italic", "underline", "strikethrough"],
+  "inlineToggleButton": "button[data-name='%s']",
+  "inlineActiveClass": "se-is-selected",
+
+  "_comment_fontsize": "글자 크기. 원장 요청으로 본문 전체를 15pt 로 통일한다.",
+  "fontSizeButton": "button[data-name='font-size']",
+  "fontSizeOption": "button[data-value='%s']",
+  "fontSizeBody": "fs15",
+  "fontSizeHeading": "fs19",
+
+  "quoteButton": "button[data-name='quotation']",
+  "dividerButton": "button[data-name='horizontal-line']",
+
+  "imageButton": [
+    "button[data-name='image']",
+    "button.se-image-toolbar-button",
+    ".se-toolbar-item-image button"
+  ],
+  "imageCaptionInput": [
+    ".se-caption .se-text-paragraph",
+    ".se-module-caption .se-text-paragraph"
+  ],
+
+  "publishButton": [
+    "button.publish_btn__m9KHH",
+    ".publish_btn_area button",
+    "button:has-text('발행')"
+  ],
+  "tagInput": [
+    "input#tag-input",
+    ".tag_input__rvUB5",
+    "input[placeholder*='태그']"
+  ],
+  "_comment_visibility": "공개설정 라디오(2026-07 실제 확인): name=open_type, 전체공개=open_public(기본선택), 비공개=open_private, 이웃=open_neighbor, 서로이웃=open_both_neighbor. 라디오 input 은 숨김이라 label 을 클릭한다.",
+  "visibilityPrivate": ["label[for='open_private']", "input#open_private"],
+  "visibilityPublic": ["label[for='open_public']", "input#open_public"],
+  "visibilityPrivateInput": "input#open_private",
+  "visibilityPublicInput": "input#open_public",
+  "confirmPublishButton": [
+    "button.confirm_btn__WEaBq",
+    ".btn_area button:has-text('발행')",
+    "button:has-text('발행')"
+  ],
+  "saveDraftButton": ["button.save_btn__bzc5B", "button:has-text('저장')"]
+}

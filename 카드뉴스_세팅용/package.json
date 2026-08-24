@@ -1,0 +1,19 @@
+{
+  "name": "naver-blog-cardnews",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "네이버 블로그 최신글 → 인스타그램 카드뉴스 이미지 자동 생성 (로컬)",
+  "scripts": {
+    "fetch": "node scripts/fetch.js",
+    "render": "node scripts/render.js",
+    "run": "node scripts/run.mjs",
+    "edit": "node scripts/editor.js",
+    "login": "node scripts/insta-login.mjs",
+    "upload": "node scripts/upload-instagram.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "playwright": "^1.48.0"
+  }
+}
